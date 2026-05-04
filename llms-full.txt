@@ -1,0 +1,51 @@
+# Geotechnik — Ulm
+
+> Geotechnical engineering services in Ulm, Deutschland.
+
+## Services
+- [Anker](https://ulm.geotechnik.vip/anker/)
+- [Atterberg Grenzen](https://ulm.geotechnik.vip/atterberg-grenzen/)
+- [Aushub](https://ulm.geotechnik.vip/aushub/)
+- [Aushub Monitoring](https://ulm.geotechnik.vip/aushub-monitoring/)
+- [Bodenplatten](https://ulm.geotechnik.vip/bodenplatten/)
+- [Bodenverbesserung](https://ulm.geotechnik.vip/bodenverbesserung/)
+- [Boschungsstabilitat](https://ulm.geotechnik.vip/boschungsstabilitat/)
+- [Cbr Strasse](https://ulm.geotechnik.vip/cbr-strasse/)
+- [Cpt Versuch](https://ulm.geotechnik.vip/cpt-versuch/)
+- [Erdbebenisolierung](https://ulm.geotechnik.vip/erdbebenisolierung/)
+- [Flexibler Belag](https://ulm.geotechnik.vip/flexibler-belag/)
+- [Fundamente](https://ulm.geotechnik.vip/fundamente/)
+- [Grundungen](https://ulm.geotechnik.vip/grundungen/)
+- [Hange](https://ulm.geotechnik.vip/hange/)
+- [In Situ Durchlassigkeit](https://ulm.geotechnik.vip/in-situ-durchlassigkeit/)
+- [Injektionen](https://ulm.geotechnik.vip/injektionen/)
+- [Korngrossenanalyse](https://ulm.geotechnik.vip/korngrossenanalyse/)
+- [Labor](https://ulm.geotechnik.vip/labor/)
+- [Labor In Situ](https://ulm.geotechnik.vip/labor-in-situ/)
+- [Masw](https://ulm.geotechnik.vip/masw/)
+- [Pfahle](https://ulm.geotechnik.vip/pfahle/)
+- [Proctor Versuche](https://ulm.geotechnik.vip/proctor-versuche/)
+- [Ruttelverdichtung](https://ulm.geotechnik.vip/ruttelverdichtung/)
+- [Sandkegel Dichte](https://ulm.geotechnik.vip/sandkegel-dichte/)
+- [Schottersaulen](https://ulm.geotechnik.vip/schottersaulen/)
+- [Schurfgruben](https://ulm.geotechnik.vip/schurfgruben/)
+- [Seismik](https://ulm.geotechnik.vip/seismik/)
+- [Seismische Mikrozonierung](https://ulm.geotechnik.vip/seismische-mikrozonierung/)
+- [Seismische Refraktion](https://ulm.geotechnik.vip/seismische-refraktion/)
+- [Spt Bohrung](https://ulm.geotechnik.vip/spt-bohrung/)
+- [Starrer Belag](https://ulm.geotechnik.vip/starrer-belag/)
+- [Strassenbau](https://ulm.geotechnik.vip/strassenbau/)
+- [Stutzmauern](https://ulm.geotechnik.vip/stutzmauern/)
+- [Tiefe Aushube](https://ulm.geotechnik.vip/tiefe-aushube/)
+- [Triaxialversuch](https://ulm.geotechnik.vip/triaxialversuch/)
+- [Untersuchung](https://ulm.geotechnik.vip/untersuchung/)
+- [Verflussigung](https://ulm.geotechnik.vip/verflussigung/)
+- [Weichbodentunnel](https://ulm.geotechnik.vip/weichbodentunnel/)
+- [Widerstand](https://ulm.geotechnik.vip/widerstand/)
+
+## Contact
+- Website: https://ulm.geotechnik.vip/
+
+## About
+This site provides geotechnical engineering services in Ulm, Deutschland.
+Compliant with local and international standards (ASTM, ISO, country-specific norms).
