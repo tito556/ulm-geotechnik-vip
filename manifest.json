@@ -11,5 +11,10 @@
       "sizes": "any",
       "type": "image/svg+xml"
     }
-  ]
+  ],
+  "lang": "de",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "description": "Professionelle geotechnische Dienstleistungen in Ulm, Germany. Bodenstudien, Prüfungen und technische Beratung.",
+  "id": "/ulm-8655"
 }

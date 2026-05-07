@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
+<head><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="apple-touch-icon" href="/img/favicon.svg">
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Hänge & Wände in Ulm – Germany</title>
 <meta name="description" content="Hänge und Wände in Ulm stellen besondere Anforderungen – die Donauleite und tertiäre Molasseböden prägen das Baugrundrisiko. Unsere Kategorie deckt die sta">
@@ -19,61 +19,60 @@
 <meta name="twitter:description" content="Hänge und Wände in Ulm stellen besondere Anforderungen – die Donauleite und tertiäre Molasseböden prägen das Baugrundrisiko. Unsere Kategorie deckt die sta">
 <meta name="twitter:image" content="https://ulm.geotechnik.vip/img/anclajes-1.webp">
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'Roboto',system-ui,sans-serif;background:#FAFAF9;color:#171717;line-height:1.55}
-a{color:inherit;text-decoration:none}
-/* NAVBAR — 1 row: brand left + cats right (con CONTACTO eliminado) */
-.navbar{background:#FFF;padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center;gap:2rem;box-shadow:0 2px 10px rgba(0,0,0,.06);position:sticky;top:0;z-index:1010;flex-wrap:wrap}
-.logo-area{display:flex;align-items:center;gap:.9rem;font-family:'Oswald',sans-serif;flex-shrink:0}
-.logo-box{background:#0A0A0A;color:#FFF;padding:.55rem 1rem;font-weight:900;font-size:1.15rem;letter-spacing:.08em;border-radius:4px}
-.logo-text{font-weight:700;font-size:1rem;letter-spacing:.06em;color:#0A0A0A;text-transform:uppercase;line-height:1.1}
-.nav{display:flex;gap:1.4rem;align-items:center;flex-wrap:wrap;flex-grow:1;justify-content:flex-end}
-.nav-item{position:relative;font-size:.88rem;color:#0A0A0A;font-weight:600;cursor:pointer;text-transform:uppercase;letter-spacing:.02em;white-space:nowrap}
-.nav-item.has-dd:hover .dd{display:block}
-.dd{display:none;position:absolute;top:100%;left:-1rem;background:#FFF;min-width:240px;padding:.6rem 0;margin-top:0;box-shadow:0 10px 30px rgba(0,0,0,.12);z-index:1010;border-top:3px solid #404040;max-height:420px;overflow-y:auto}
-.nav-item.has-dd{padding-bottom:1.5rem;margin-bottom:-1.5rem}
-.nav-item.has-dd:hover{padding-bottom:1.5rem}
-.dd a{display:block;padding:.45rem 1.2rem;color:#0A0A0A;font-size:.85rem;font-weight:400;text-transform:none;letter-spacing:0}
-.dd a:hover{background:#F5F5F5}
+@media(max-width:900px){.nav{display:none}}
+.p-tags span{background:#F5F5F5;color:#556677;padding:.2rem .5rem;font-size:.68rem;font-weight:700;letter-spacing:.05em}
+.section h2{font-family:'Oswald',sans-serif;font-size:1.7rem;font-weight:800;color:#0A0A0A;margin-bottom:1.3rem;letter-spacing:-.01em}
+.hero-cta{background:#404040;color:#0A0A0A;padding:1rem 1.8rem;font-size:.88rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;display:inline-block}
+table tr:nth-child(even) td{background:#F9FAFB}
+.cta-box-6ed6 a{color:#404040;font-weight:600}
+.section{padding:3.5rem 2.5rem;max-width:1200px;margin:0 auto}
+.p-body{padding:1.2rem}
 .cta-btn{background:#404040;color:#0A0A0A;padding:.7rem 1.4rem;font-size:.82rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;flex-shrink:0;white-space:nowrap;text-decoration:none;border-radius:6px}
 .hero{position:relative;min-height:520px;background:linear-gradient(135deg,#171717 0%,#0A0A0A 100%);background-size:cover;background-position:center;display:flex;align-items:center;padding:3rem 2.5rem;color:#FFF}
-.hero-inner{max-width:900px;margin:0 auto;width:100%}
-.crumb{font-size:.82rem;margin-bottom:1rem;color:rgba(255,255,255,.9)}
-.crumb a{color:#FFF;text-decoration:underline;font-weight:600}
-.crumb a:hover{color:#404040}
-.hero h1{font-family:'Oswald',sans-serif;font-size:clamp(2rem,4.5vw,3.4rem);font-weight:900;letter-spacing:-.01em;line-height:1.1;margin-bottom:1rem}
-.hero .together{font-size:1.1rem;opacity:.95;margin-bottom:1.5rem;max-width:620px;font-style:italic}
-.hero-cta{background:#404040;color:#0A0A0A;padding:1rem 1.8rem;font-size:.88rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;display:inline-block}
-.section{padding:3.5rem 2.5rem;max-width:1200px;margin:0 auto}
-.section-label{font-size:.78rem;color:#404040;text-transform:uppercase;letter-spacing:.2em;font-weight:700;margin-bottom:.8rem}
-.section h2{font-family:'Oswald',sans-serif;font-size:1.7rem;font-weight:800;color:#0A0A0A;margin-bottom:1.3rem;letter-spacing:-.01em}
-.section p{margin-bottom:1.1rem;line-height:1.75;text-align:justify;hyphens:auto;-webkit-hyphens:auto;color:#334155;font-size:1.02rem}
-.section p a{color:#171717;font-weight:500;text-decoration:underline;text-decoration-color:rgba(28,43,59,.3);text-underline-offset:3px}
-.section p a:hover{color:#404040;text-decoration-color:#404040}
-.projects-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
-.project-card{background:#FFF;border:1px solid #E5E7EB;overflow:hidden;transition:all .2s;display:block}
-.project-card:hover{box-shadow:0 10px 30px rgba(0,0,0,.1);transform:translateY(-2px)}
+.nav{display:flex;gap:1.4rem;align-items:center;flex-wrap:wrap;flex-grow:1;justify-content:flex-end}.hero h1{font-size:1.8rem}
+.dd a:hover{background:#F5F5F5}
 .p-img{height:180px;background-size:cover;background-position:center;background-color:#E5E7EB}
-.p-body{padding:1.2rem}
-.p-location{font-size:.72rem;color:#8A9AA8;font-weight:600;letter-spacing:.1em;margin-bottom:.4rem}
-.p-body h4{color:#0A0A0A;font-size:1rem;font-weight:700;margin-bottom:.6rem;font-family:'Oswald',sans-serif}
-.p-tags{display:flex;gap:.4rem;flex-wrap:wrap}
-.p-tags span{background:#F5F5F5;color:#556677;padding:.2rem .5rem;font-size:.68rem;font-weight:700;letter-spacing:.05em}
-table{width:100%;border-collapse:collapse;margin:1rem 0}
-table th{background:#0A0A0A;color:#FFF;text-align:left;padding:.7rem 1rem;font-size:.88rem}
-table td{padding:.65rem 1rem;border-bottom:1px solid #E5E7EB;font-size:.9rem}
-table tr:nth-child(even) td{background:#F9FAFB}
-details{background:#FFF;border:1px solid #E5E7EB;border-radius:6px;padding:.9rem 1.2rem;margin-bottom:.6rem;cursor:pointer}
-details summary{font-weight:600;color:#0A0A0A;list-style:none}
-details[open] summary{margin-bottom:.7rem}
+a{color:inherit;text-decoration:none}
+.hero .together{font-size:1.1rem;opacity:.95;margin-bottom:1.5rem;max-width:620px;font-style:italic}
+.section p a{color:#171717;font-weight:500;text-decoration:underline;text-decoration-color:rgba(28,43,59,.3);text-underline-offset:3px}
+.cta-box-6ed6 h2{color:#FFFFFF !important;margin-bottom:.8rem;font-size:1.5rem}
+.logo-text{font-weight:700;font-size:1rem;letter-spacing:.06em;color:#0A0A0A;text-transform:uppercase;line-height:1.1}
+*{margin:0;padding:0;box-sizing:border-box}
+.crumb-6ed6 a{color:#FFF;text-decoration:underline;font-weight:600}
+/* NAVBAR — 1 row: brand left + cats right (con CONTACTO eliminado) */
+.navbar{background:#FFF;padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center;gap:2rem;box-shadow:0 2px 10px rgba(0,0,0,.06);position:sticky;top:0;z-index:1010;flex-wrap:wrap}
+.nav-item.has-dd:hover .dd{display:block}
+.crumb-6ed6 a:hover{color:#404040}
+.cta-box-6ed6{background:#0A0A0A;color:#FFF;padding:2.5rem 2rem;text-align:center;margin:3rem 0;border-radius:8px}
+.projects-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
+.cta-box-6ed6 p{color:rgba(255,255,255,.85);max-width:none;text-align:center;margin:0}
+.dd{display:none;position:absolute;top:100%;left:-1rem;background:#FFF;min-width:240px;padding:.6rem 0;margin-top:0;box-shadow:0 10px 30px rgba(0,0,0,.12);z-index:1010;border-top:3px solid #404040;max-height:420px;overflow-y:auto}
 details p{color:#171717;line-height:1.65;margin:0}
-.cta-box{background:#0A0A0A;color:#FFF;padding:2.5rem 2rem;text-align:center;margin:3rem 0;border-radius:8px}
-.cta-box h2{color:#FFFFFF !important;margin-bottom:.8rem;font-size:1.5rem}
-.cta-box p{color:rgba(255,255,255,.85);max-width:none;text-align:center;margin:0}
-.cta-box a{color:#404040;font-weight:600}
+.nav-item.has-dd{padding-bottom:1.5rem;margin-bottom:-1.5rem}
+table{width:100%;border-collapse:collapse;margin:1rem 0}
+body{font-family:'Roboto',system-ui,sans-serif;background:#FAFAF9;color:#171717;line-height:1.55}
+details{background:#FFF;border:1px solid #E5E7EB;border-radius:6px;padding:.9rem 1.2rem;margin-bottom:.6rem;cursor:pointer}
+.logo-box{background:#0A0A0A;color:#FFF;padding:.55rem 1rem;font-weight:900;font-size:1.15rem;letter-spacing:.08em;border-radius:4px}
+.project-card{background:#FFF;border:1px solid #E5E7EB;overflow:hidden;transition:all .2s;display:block}
+.section p{margin-bottom:1.1rem;line-height:1.75;text-align:justify;hyphens:auto;-webkit-hyphens:auto;color:#334155;font-size:1.02rem}
+details[open] summary{margin-bottom:.7rem}
 footer{background:#0A0A0A;color:#FFF;padding:2.5rem 2rem;text-align:center;font-size:.85rem;opacity:.88;margin-top:3rem}
-@media(max-width:900px){.nav{display:none}.hero h1{font-size:1.8rem}}
-</style><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://ulm.geotechnik.vip/hange/", "url": "https://ulm.geotechnik.vip/hange/", "name": "Hänge & Wände in Ulm – Germany", "inLanguage": "de", "description": "Hänge und Wände in Ulm stellen besondere Anforderungen – die Donauleite und tertiäre Molasseböden prägen das Baugrundrisiko. Unsere Kategorie deckt die sta", "isPartOf": {"@type": "WebSite", "@id": "https://ulm.geotechnik.vip/#website", "url": "https://ulm.geotechnik.vip"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://ulm.geotechnik.vip/"}, {"@type": "ListItem", "position": 2, "name": "Hänge & Wände", "item": "https://ulm.geotechnik.vip/hange/"}]}, {"@type": "ItemList", "name": "Hänge & Wände", "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://ulm.geotechnik.vip/boschungsstabilitat/", "name": "Böschungsstabilitätsanalyse"}, {"@type": "ListItem", "position": 2, "url": "https://ulm.geotechnik.vip/anker/", "name": "Aktive/passive Verankerungsbemessung"}, {"@type": "ListItem", "position": 3, "url": "https://ulm.geotechnik.vip/stutzmauern/", "name": "Stützwandbemessung"}]}]}</script><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#581C87"><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="apple-touch-icon" href="/img/favicon.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></head><body>
+table th{background:#0A0A0A;color:#FFF;text-align:left;padding:.7rem 1rem;font-size:.88rem}
+.crumb-6ed6{font-size:.82rem;margin-bottom:1rem;color:rgba(255,255,255,.9)}
+.p-location{font-size:.72rem;color:#8A9AA8;font-weight:600;letter-spacing:.1em;margin-bottom:.4rem}
+.section-label{font-size:.78rem;color:#404040;text-transform:uppercase;letter-spacing:.2em;font-weight:700;margin-bottom:.8rem}
+details summary{font-weight:600;color:#0A0A0A;list-style:none}
+.p-body h4{color:#0A0A0A;font-size:1rem;font-weight:700;margin-bottom:.6rem;font-family:'Oswald',sans-serif}
+.hero h1{font-family:'Oswald',sans-serif;font-size:clamp(2rem,4.5vw,3.4rem);font-weight:900;letter-spacing:-.01em;line-height:1.1;margin-bottom:1rem}
+.nav-item{position:relative;font-size:.88rem;color:#0A0A0A;font-weight:600;cursor:pointer;text-transform:uppercase;letter-spacing:.02em;white-space:nowrap}
+.p-tags{display:flex;gap:.4rem;flex-wrap:wrap}
+table td{padding:.65rem 1rem;border-bottom:1px solid #E5E7EB;font-size:.9rem}
+.dd a{display:block;padding:.45rem 1.2rem;color:#0A0A0A;font-size:.85rem;font-weight:400;text-transform:none;letter-spacing:0}
+.nav-item.has-dd:hover{padding-bottom:1.5rem}
+.hero-inner{max-width:900px;margin:0 auto;width:100%}
+.section p a:hover{color:#404040;text-decoration-color:#404040}
+.logo-area{display:flex;align-items:center;gap:.9rem;font-family:'Oswald',sans-serif;flex-shrink:0}
+.project-card:hover{box-shadow:0 10px 30px rgba(0,0,0,.1);transform:translateY(-2px)}</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"description":"Hänge und Wände in Ulm stellen besondere Anforderungen – die Donauleite und tertiäre Molasseböden prägen das Baugrundrisiko. Unsere Kategorie deckt die sta","name":"Hänge & Wände in Ulm – Germany","inLanguage":"de","@type":"WebPage","url":"https://ulm.geotechnik.vip/hange/","@id":"https://ulm.geotechnik.vip/hange/","isPartOf":{"url":"https://ulm.geotechnik.vip","@type":"WebSite","@id":"https://ulm.geotechnik.vip/#website"}},{"itemListElement":[{"position":1,"name":"Home","@type":"ListItem","item":"https://ulm.geotechnik.vip/"},{"position":2,"name":"Hänge & Wände","@type":"ListItem","item":"https://ulm.geotechnik.vip/hange/"}],"@type":"BreadcrumbList"},{"itemListElement":[{"url":"https://ulm.geotechnik.vip/boschungsstabilitat/","position":1,"name":"Böschungsstabilitätsanalyse","@type":"ListItem"},{"url":"https://ulm.geotechnik.vip/anker/","position":2,"name":"Aktive/passive Verankerungsbemessung","@type":"ListItem"},{"url":"https://ulm.geotechnik.vip/stutzmauern/","position":3,"name":"Stützwandbemessung","@type":"ListItem"}],"name":"Hänge & Wände","@type":"ItemList"}]}</script><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#581C87"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></head><body>
 
 <nav class="navbar">
     <div class="logo-area">
@@ -86,7 +85,7 @@ footer{background:#0A0A0A;color:#FFF;padding:2.5rem 2rem;text-align:center;font-
 </nav>
 
 <header class="hero"><div class="hero-inner">
-    <div class="crumb"><a href="/">Startseite</a> › <span>Hänge & Wände</span></div>
+    <div class="crumb-6ed6"><a href="/">Startseite</a> › <span>Hänge & Wände</span></div>
     <h1>Hänge & Wände in Ulm</h1>
     <p class="together">Gemeinsam lösen wir die Herausforderungen von morgen.</p>
     <a class="hero-cta" href="#main-content">MEHR ERFAHREN →</a>
@@ -95,24 +94,7 @@ footer{background:#0A0A0A;color:#FFF;padding:2.5rem 2rem;text-align:center;font-
 
 <p>Verkehrsinfrastruktur, Weinbergmauern und innerstädtische Baugruben zählen zu den typischen Projekten. Besonders bei platzsparenden Lösungen am Hang oder entlang der Bundesstraße B10 kommt die <a href="stutzmauern/">Stützwandbemessung</a> zum Tragen, die Winkelstützwände und Schwergewichtsmauern normkonform auslegt. So entsteht geotechnische Sicherheit für die spezifischen Ulmer Untergrundverhältnisse.</p></div></section>
 <section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Verfügbare Leistungen</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../boschungsstabilitat/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Böschungsstabilitätsanalyse</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../anker/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Aktive/passive Verankerungsbemessung</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../stutzmauern/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Stützwandbemessung</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section>
-
-
-<section id="main-content" class="section"><p>Die Bemessung von Verpressankern folgt in Deutschland der DIN EN 1997-1 in Verbindung mit DIN 1054. In Ulm ist das besonders relevant wegen der heterogenen Untergrundverhältnisse: quartäre Donau-Schotter und darunter anstehender Weißjura-Kalk, oft verkarstet und klüftig. Für aktive oder passive Ankersysteme muss die Krafteinleitung in diese Formationen genau berechnet werden. Wir führen die geotechnische Bemessung standortbezogen durch, berücksichtigen den Kluftkörper, die Kalksteinfestigkeit und den Grundwasserstand im Donautal. Ergänzend kann eine Baugrunderkundung mittels <a data-interlink="1" href="/spt-bohrung/">Sondierungen</a> Aufschluss über die Lagerungsdichte der quartären Kiese geben, bevor die Ankerlängen festgelegt werden. Ebenso liefert ein <a data-interlink="1" href="/cpt-versuch/">CPT-Versuch</a> in den Auelehmschichten kontinuierliche Spitzendruck- und Reibungsprofile für die Mantelreibungsermittlung. So entsteht ein Bemessungskonzept, das die tatsächlichen Bodenkennwerte der Ulmer Talflanke abbildet.</p><blockquote style="border-left:4px solid #404040;background:rgba(0,0,0,.03);padding:1rem 1.25rem;margin:1.5rem 0 1.5rem 1rem;font-style:italic;color:#333;font-size:1.05rem;line-height:1.55;border-radius:0 6px 6px 0">Im verkasteten Weißjura von Ulm entscheidet das Verpressbild über die Ankerlast – nicht die reine Bruchlast des Stahls.</blockquote></section>
-
-
-
-<section class="section"><h2>Methodik und Umfang</h2><div>An der Donau, wo die Feuchtigkeit der Flussaue den Untergrund beeinflusst, ist die Unterscheidung zwischen aktiver und passiver Verankerung essenziell. Aktive Litzenanker werden vorgespannt, um Verformungen im Vorfeld zu begrenzen – wichtig bei tiefen Baugruben in der Ulmer Innenstadt nahe dem Münster. Passive Anker, etwa selbstbohrende Injektionsanker, mobilisieren ihre Kraft erst bei Bodenbewegung und eignen sich für Hangsicherungen am Michelsberg oder in Böfingen. Unsere Bemessung umfasst:<ul><li>Ermittlung der Ankerneigung und -länge anhand des Kluftgefüges im Malm-Kalk</li><li>Berechnung der Herausziehwiderstände nach DIN SPEC 18537</li><li>Nachweis der inneren und äußeren Standsicherheit des Verankerungssystems</li></ul>Für Bauvorhaben im Hangschuttbereich des Hochsträß binden wir die Ergebnisse aus dem <a href="/korngrossenanalyse/">Korngrößenversuch</a> ein, um die Filterstabilität des Verpressguts zu gewährleisten. Auch die <a href="/boschungsstabilitat/">Böschungsstabilität</a> wird im Zuge der Ankerplanung rechnerisch geprüft, damit die Gesamtstandfestigkeit des Hangs erhalten bleibt.</div></section>
-    <section class="section img-inline-block" style="padding:1.5rem 2.5rem">
-      <div style="max-width:60%;margin:0 auto">
-        <figure style="margin:0;border-radius:10px;overflow:hidden;border:1px solid #E5E7EB">
-          <img src="/img/anclajes-2.webp" alt="Aktive und passive Ankerbemessung in Ulm – Bemessung nach Norm" loading="lazy" style="width:100%;max-height:210px;object-fit:cover;display:block">
-          <figcaption style="padding:.5rem .8rem;font-size:.78rem;color:#64748B;background:#FAFAF7">Technisches Referenzbild — Ulm</figcaption>
-        </figure>
-      </div>
-    </section><section class="section"><h2>Lokale Besonderheiten</h2><p>In Ulm sehen wir regelmäßig, dass die Verpressmenge im karstigen Kalk nicht linear zur Ankerlänge verläuft. Verluste von 200 % und mehr gegenüber dem theoretischen Bohrlochvolumen sind im Malm keine Seltenheit. Wer hier mit starrer Mörtelmenge kalkuliert, riskiert unzureichende Mantelreibung und einen schleichenden Spannkraftabfall. Ein zweiter kritischer Punkt ist die Drainagefähigkeit des Ankerkopfs in Hanglagen: Stauwasser hinter Spritzbetonschalen kann bei Frost im Januar – Ulm hat im Mittel 80 Frosttage – zu Eisbildung und Abplatzungen am Ankerkopf führen. Unsere Bemessung legt deshalb besonderen Wert auf die Nachweisführung der Dauerhaftigkeit und die Spezifikation des Verpressdrucks je nach Abschnittstiefe, damit jeder Anker die geforderte Gebrauchstauglichkeit über seine Nutzungsdauer behält.</p></section>
-
-
-    <section class="block mid-cta" style="padding:2rem 0">
+<section class="block mid-cta-6ed6" style="padding:2rem 0">
       <div style="max-width:720px;margin:0 auto;background:linear-gradient(135deg,#40404015,#40404008);border-left:4px solid #404040;padding:1.6rem 1.8rem;border-radius:8px;text-align:center">
         <h3 style="margin:0 0 .4rem;font-size:1.15rem;color:#1E293B;text-align:center">Benötigen Sie eine geotechnische Bewertung?</h3>
         <p style="margin:0 0 1rem;color:#64748B;font-size:.92rem;text-align:center">Antwort innerhalb von 24h.</p>
@@ -127,17 +109,16 @@ footer{background:#0A0A0A;color:#FFF;padding:2.5rem 2rem;text-align:center;font-
 
     <section class="block sub-services-block" style="padding:3.5rem 1.5rem">
       <style>
-        .sub-svc-grid { display:flex; flex-wrap:wrap; gap:1.5rem; margin-top:1.5rem; justify-content:center; }
-        .sub-svc-grid > .sub-svc, .sub-svc-grid > a.sub-svc { flex:0 0 calc(50% - 0.75rem); min-width:220px; padding:1rem 1.2rem; border:1px solid #E5E7EB; border-radius:10px; background:#FFFFFF; transition:border-color .18s ease, box-shadow .18s ease, transform .18s ease; position:relative; }
-        .sub-svc-grid > a.sub-svc-link { display:block; text-decoration:none; color:inherit; cursor:pointer; }
-        .sub-svc-grid > a.sub-svc-link:hover { border-color:#404040; box-shadow:0 4px 14px rgba(0,0,0,.08); transform:translateY(-2px); }
-        .sub-svc-grid > a.sub-svc-link:hover h3 { color:#404040; }
-        .sub-svc-grid > a.sub-svc-link:hover .sub-svc-arrow { transform:translateX(4px); opacity:1; }
-        .sub-svc-arrow { position:absolute; right:1rem; bottom:.9rem; color:#404040; font-weight:700; font-size:1.1rem; opacity:.6; transition:transform .18s ease, opacity .18s ease; }
-      </style>
+        .sub-svc-grid-6ed6 > a.sub-svc-link-6ed6:hover .sub-svc-arrow-6ed6 { transform:translateX(4px); opacity:1; }
+        .sub-svc-grid-6ed6 > a.sub-svc-link-6ed6:hover { border-color:#404040; box-shadow:0 4px 14px rgba(0,0,0,.08); transform:translateY(-2px); }
+        .sub-svc-grid-6ed6 > a.sub-svc-link-6ed6:hover h3 { color:#404040; }
+        .sub-svc-grid-6ed6 > .sub-svc, .sub-svc-grid-6ed6 > a.sub-svc { flex:0 0 calc(50% - 0.75rem); min-width:220px; padding:1rem 1.2rem; border:1px solid #E5E7EB; border-radius:10px; background:#FFFFFF; transition:border-color .18s ease, box-shadow .18s ease, transform .18s ease; position:relative; }
+        .sub-svc-grid-6ed6 > a.sub-svc-link-6ed6 { display:block; text-decoration:none; color:inherit; cursor:pointer; }
+        .sub-svc-grid-6ed6 { display:flex; flex-wrap:wrap; gap:1.5rem; margin-top:1.5rem; justify-content:center; }
+        .sub-svc-arrow-6ed6 { position:absolute; right:1rem; bottom:.9rem; color:#404040; font-weight:700; font-size:1.1rem; opacity:.6; transition:transform .18s ease, opacity .18s ease; }</style>
       <div style="max-width:1200px;margin:0 auto">
         <h2 style="margin-bottom:1.5rem;font-weight:700">Zugehörige Fachleistungen</h2>
-        <div class="sub-svc-grid">
+        <div class="sub-svc-grid-6ed6">
           <div class="sub-svc"><div class="sub-svc-num" style="color:#404040;font-weight:700;font-size:.85rem;letter-spacing:.1em">01</div><h3 style="color:#0A0A0A;font-size:1.1rem;margin:.3rem 0 .5rem">Geotechnische Berechnung</h3><p style="color:#333;line-height:1.65;font-size:.93rem">Ermittlung der Ankerkräfte, freien Länge und Verpresskörperlänge unter Berücksichtigung von Gleitkreisbetrachtungen und der lokalen Geologie in Ulm.</p></div><div class="sub-svc"><div class="sub-svc-num" style="color:#404040;font-weight:700;font-size:.85rem;letter-spacing:.1em">02</div><h3 style="color:#0A0A0A;font-size:1.1rem;margin:.3rem 0 .5rem">Ausführungsplanung</h3><p style="color:#333;line-height:1.65;font-size:.93rem">Erstellung der Bewehrungs- und Verankerungspläne mit Angaben zu Ankerneigung, Herstellsequenz und Korrosionsschutz gemäß DIN EN 1537.</p></div><div class="sub-svc"><div class="sub-svc-num" style="color:#404040;font-weight:700;font-size:.85rem;letter-spacing:.1em">03</div><h3 style="color:#0A0A0A;font-size:1.1rem;margin:.3rem 0 .5rem">Eignungs- und Abnahmeprüfung</h3><p style="color:#333;line-height:1.65;font-size:.93rem">Festlegung des Prüfprogramms, Auswertung der Last-Verschiebungs-Kurven und Kriechmaße für aktive und passive Systeme.</p></div>
         </div>
       </div>
@@ -174,6 +155,6 @@ footer{background:#0A0A0A;color:#FFF;padding:2.5rem 2rem;text-align:center;font-
 
 
 
-<footer style="background:#0A0A0A;color:rgba(255,255,255,.85);padding:2rem 1.5rem;text-align:center;font-size:.92rem">Ulm, Germany · <a href="mailto:kontakt@geotechnik.vip" style="color:#FFF;text-decoration:underline">kontakt@geotechnik.vip</a><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>Referenzen:</strong> <a href="https://www.din.de/" rel="nofollow noopener" target="_blank">DIN Normen</a> · <a href="https://eurocodes.jrc.ec.europa.eu/showpage.php?id=132" rel="nofollow noopener" target="_blank">Eurocode 7</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotechnik</a></div><div class="updated-info" data-updated="2026-05-01" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Zuletzt aktualisiert: 2026-05-01</div></footer>
+<footer style="background:#0A0A0A;color:rgba(255,255,255,.85);padding:2rem 1.5rem;text-align:center;font-size:.92rem">Ulm, Germany · <a href="mailto:kontakt@geotechnik.vip" style="color:#FFF;text-decoration:underline">kontakt@geotechnik.vip</a><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>Referenzen:</strong> <a href="https://www.din.de/" rel="nofollow noopener" target="_blank">DIN Normen</a> · <a href="https://eurocodes.jrc.ec.europa.eu/showpage.php?id=132" rel="nofollow noopener" target="_blank">Eurocode 7</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotechnik</a></div><div class="updated-info" data-updated="2026-04-09" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Zuletzt aktualisiert: 2026-05-01</div></footer>
 
 </body></html>
