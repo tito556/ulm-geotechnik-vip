@@ -15,6 +15,7 @@
 - [Erdbebenisolierung](https://ulm.geotechnik.vip/erdbebenisolierung/)
 - [Flexibler Belag](https://ulm.geotechnik.vip/flexibler-belag/)
 - [Fundamente](https://ulm.geotechnik.vip/fundamente/)
+- [Geophysik](https://ulm.geotechnik.vip/geophysik/)
 - [Grundungen](https://ulm.geotechnik.vip/grundungen/)
 - [Hange](https://ulm.geotechnik.vip/hange/)
 - [In Situ Durchlassigkeit](https://ulm.geotechnik.vip/in-situ-durchlassigkeit/)
